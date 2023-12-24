@@ -6,16 +6,12 @@
 
 h1 {
   width: 100%;
-  display: inline-block;
-  text-decoration: underline;
   background-color: #0046be;
-  color: white;
-  font-family: 'Orbitron', sans-serif;
-  padding: 10px;
+  font-family: "Orbitron", sans-serif;
   border-radius: 10px;
-  text-align: center;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
-
 /*Product.jsx*/
 .videoGames {
   text-align: center;
@@ -23,14 +19,13 @@ h1 {
 
 /*products container*/
 .products-container {
-  background-color: white;
   color: black;
   width: 100%;
-  padding: 20px;
   margin-top: -22px;
   border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
-
 
 /*images*/
 .gameImage {
